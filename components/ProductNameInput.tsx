@@ -18,8 +18,7 @@ const ProductNameInput: React.FC<Props> = ({ value, onChange }) => {
                 className="w-full border border-gray-300 rounded p-2"
                 value={value}
                 onChange={(e) => onChange(e.target.value)}
-                required
-            />
+                require/>
         </div>
     );
 };
