@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Кастомні стилі */
+.input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.btn-primary {
+    @apply bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700;
+}
+
+.btn-secondary {
+    @apply bg-gray-300 px-6 py-2 rounded hover:bg-gray-400;
+}
